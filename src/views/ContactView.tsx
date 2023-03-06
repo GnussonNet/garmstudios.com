@@ -130,7 +130,7 @@ const ContactView = () => {
 
           <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
             <button
-              className="flex gap-2 justify-center w-full items-center rounded-md bg-garm-blue-200 px-5 py-3 text-sm font-medium text-black transition hover:bg-garm-blue-100 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
+              className="flex gap-2 justify-center w-full items-center rounded-md bg-garm-blue-200 px-5 py-3 text-sm font-medium text-black transition hover:bg-garm-blue-100 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95"
             >
               <Send className="w-5 h-5" />
               <p>

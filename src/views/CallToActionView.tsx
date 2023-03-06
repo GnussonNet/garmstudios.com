@@ -11,7 +11,7 @@ const CallToActionView = () => {
         </div>
         <div className="w-full">
           <button
-            className="ml-auto w-full md:w-auto flex gap-4 justify-center items-center rounded-md bg-garm-gold-700 px-6 py-3 text-md font-medium text-black transition hover:bg-garm-gold-500 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
+            className="ml-auto w-full md:w-auto flex gap-4 justify-center items-center rounded-md bg-garm-gold-700 px-6 py-3 text-md font-medium text-black transition hover:bg-garm-gold-500 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95"
           >
             <Briefcase className="w-5 h-5" />
             <p>

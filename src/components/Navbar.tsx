@@ -106,16 +106,16 @@ const Navbar = () => {
           <div className="flex items-center gap-4 z-10">
             <div className="sm:flex items-center sm:gap-4">
               <div className="hidden md:flex items-center gap-4">
-                <Link className="p-2 text-black rounded-full bg-garm-blue-200 focus:outline-none focus:ring-4 focus:ring-garm-blue-600" to="https://linkedin.com">
+                <Link className="p-2 text-black rounded-full bg-garm-blue-200 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95" to="https://linkedin.com">
                   <Linkedin className="w-4 h-4" />
                 </Link>
-                <Link className="p-2 text-black rounded-full bg-garm-blue-200 focus:outline-none focus:ring-4 focus:ring-garm-blue-600" to="https://instagram.com">
+                <Link className="p-2 text-black rounded-full bg-garm-blue-200 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95" to="https://instagram.com">
                   <Instagram className="w-4 h-4" />
                 </Link>
                 <Circle className="fill-garm-blue-100 stroke-none w-2 h-2" />
               </div>
               <Link
-                className="flex gap-2 items-center rounded-md bg-garm-gold-700 px-5 py-2.5 text-sm font-medium text-black transition hover:bg-garm-gold-500 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
+                className="flex gap-2 items-center rounded-md bg-garm-gold-700 px-5 py-2.5 text-sm font-medium text-black transition hover:bg-garm-gold-500 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95"
                 to="/"
               >
                 <Mail className="w-5 h-5" />
