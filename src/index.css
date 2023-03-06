@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat.ttf") format("truetype");
+    font-weight: 100 900;
+  }
+
   html {
-    @apply text-white;
-    @apply bg-black;
+    /* @apply text-white bg-black; */
+    @apply text-white bg-garm-blue-900;
   }
 }
