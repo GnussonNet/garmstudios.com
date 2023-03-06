@@ -1,0 +1,20 @@
+{
+    "name": "GARM Studios",
+    "short_name": "GARM Studios",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png?v=1.0.0",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png?v=1.0.0",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#112b3e",
+    "background_color": "#112b3e",
+    "start_url": ".",
+    "display": "standalone"
+}
