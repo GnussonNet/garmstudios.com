@@ -113,14 +113,8 @@ const ContactView = () => {
           </div>
 
           <div className="col-span-6">
-            <label htmlFor="MarketingAccept" className="flex gap-4">
-              <input
-                type="checkbox"
-                id="MarketingAccept"
-                name="marketing_accept"
-                className="h-5 w-5 rounded-md  shadow-sm bg-gray-800 accent-garm-blue-600 focus:outline-none focus:ring-2 focus:ring-garm-blue-600"
-              />
-
+            <label htmlFor="MarketingAccept" className="flex items-center gap-4">
+              <input id="MarketingAccept" name='marketing_accept' type="checkbox" value="" className="w-5 h-5 bg-garm-blue-200 text-garm-blue-200 border-garm-blue-200 rounded focus:ring-garm-blue-600 accent-garm-200 ring-offset-garm-blue-600 focus:ring-2" />
               <span className="text-sm text-gray-200">
                 I want to receive emails about events, product updates and
                 company announcements.
