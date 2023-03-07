@@ -17,29 +17,29 @@ const TrustView = () => {
             Trusted by well-known companies
           </h1>
         </div>
-        <div className="grid grid-cols-2 gap-0.5 md:grid-cols-8 pt-6">
-          <div className="flex justify-center col-span-1 px-8">
+        <div className="grid gap-12 grid-cols-auto-fit-16 max-w-4xl mx-auto pt-6">
+          <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={codic} alt="logo" />
           </div>
-          <div className="flex justify-center col-span-1 px-8">
+          <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={drikk} alt="logo" />
           </div>
-          <div className="flex justify-center col-span-1 px-8">
+          <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={elon} alt="logo" />
           </div>
-          <div className="flex justify-center col-span-1 px-8">
+          <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={fs} alt="logo" />
           </div>
-          <div className="flex justify-center col-span-1 px-8">
+          <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={gomo} alt="logo" />
           </div>
-          <div className="flex justify-center col-span-1 px-8">
+          <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={obstecare} alt="logo" />
           </div>
-          <div className="flex justify-center col-span-1 px-8">
+          <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={sws} alt="logo" />
           </div>
-          <div className="flex justify-center col-span-1 px-8">
+          <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={vv} alt="logo" />
           </div>
         </div>
