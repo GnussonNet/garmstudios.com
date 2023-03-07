@@ -17,7 +17,7 @@ const TrustView = () => {
             Trusted by well-known companies
           </h1>
         </div>
-        <div className="grid gap-12 grid-cols-auto-fit-16 max-w-4xl mx-auto pt-6">
+        <div className="grid gap-6 md:gap-12 grid-cols-auto-fit-16 max-w-4xl mx-auto pt-6">
           <div className="hover:scale-110 transition hover:saturate-0 cursor-pointer">
             <img className="max-h-16" src={codic} alt="logo" />
           </div>
