@@ -1,5 +1,6 @@
 import { Instagram, Linkedin } from 'lucide-react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from "../assets/garm.png"
 
 const Footer = () => {
@@ -14,35 +15,17 @@ const Footer = () => {
             <p className='text-garm-gold-500 text-md font-semibold'>GARM Studios AB</p>
           </div>
 
-          <ul className="flex justify-start gap-6 mt-8 sm:mt-0 sm:justify-end">
-            <li>
-              <a
-                href="/"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-200 transition hover:opacity-75"
-              >
-                <span className="sr-only">LinkedIn</span>
-
-                <Linkedin
-                  className="w-6 h-6"
-                />
-              </a>
+          <ul className="flex justify-start gap-4 mt-8 sm:mt-0 sm:justify-end">
+            <li className='flex items-center'>
+              <Link className="p-1 text-gray-200 transition hover:opacity-75 rounded-md focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95" to="https://linkedin.com">
+                <Linkedin className="w-6 h-6" />
+              </Link>
             </li>
 
-            <li>
-              <a
-                href="/"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-200 transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md"
-              >
-                <span className="sr-only">Instagram</span>
-
-                <Instagram
-                  className="w-6 h-6"
-                />
-              </a>
+            <li className='flex items-center'>
+              <Link className="p-1 text-gray-200 transition hover:opacity-75 rounded-md focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95" to="https://instagram.com">
+                <Instagram className="w-6 h-6" />
+              </Link>
             </li>
           </ul>
         </div>
