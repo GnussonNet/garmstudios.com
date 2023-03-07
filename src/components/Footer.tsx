@@ -1,38 +1,42 @@
-import { Instagram, Linkedin } from 'lucide-react'
-import React from 'react'
-import { Link } from 'react-router-dom'
-import logo from "../assets/garm.png"
+import { Instagram, Linkedin } from "lucide-react";
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/garm.png";
 
 const Footer = () => {
   return (
     <footer aria-label="Site Footer" className="bg-[#0F2C3E] ">
-      <div
-        className="max-w-screen-xl px-4 pb-10 mt-20 md:mt-40 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8"
-      >
+      <div className="mx-auto mt-28 max-w-screen-xl space-y-8 px-4 pb-10 sm:px-6 md:mt-48 lg:space-y-16 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex items-center gap-6">
             <img src={logo} className="h-12" alt="Logo" />
-            <p className='text-garm-gold-500 text-md font-semibold'>GARM Studios AB</p>
+            <p className="text-md font-semibold text-garm-gold-500">
+              GARM Studios AB
+            </p>
           </div>
 
-          <ul className="flex justify-start gap-4 mt-8 sm:mt-0 sm:justify-end">
-            <li className='flex items-center'>
-              <Link className="p-1 text-gray-200 transition hover:opacity-75 rounded-md focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95" to="https://linkedin.com">
-                <Linkedin className="w-6 h-6" />
+          <ul className="mt-8 flex justify-start gap-4 sm:mt-0 sm:justify-end">
+            <li className="flex items-center">
+              <Link
+                className="rounded-md p-1 text-gray-200 transition hover:scale-105 hover:opacity-75 focus:scale-95 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
+                to="https://linkedin.com"
+              >
+                <Linkedin className="h-6 w-6" />
               </Link>
             </li>
 
-            <li className='flex items-center'>
-              <Link className="p-1 text-gray-200 transition hover:opacity-75 rounded-md focus:outline-none focus:ring-4 focus:ring-garm-blue-600 hover:scale-105 focus:scale-95" to="https://instagram.com">
-                <Instagram className="w-6 h-6" />
+            <li className="flex items-center">
+              <Link
+                className="rounded-md p-1 text-gray-200 transition hover:scale-105 hover:opacity-75 focus:scale-95 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
+                to="https://instagram.com"
+              >
+                <Instagram className="h-6 w-6" />
               </Link>
             </li>
           </ul>
         </div>
 
-        <div
-          className="grid grid-cols-1 gap-8 pt-8 border-t border-garm-blue-600 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16"
-        >
+        <div className="grid grid-cols-1 gap-8 border-t border-garm-blue-600 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
           <div>
             <p className="font-medium text-garm-gold-500">Services</p>
 
@@ -41,7 +45,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     1on1 Coaching
                   </a>
@@ -50,7 +54,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Company Review
                   </a>
@@ -59,7 +63,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Accounts Review
                   </a>
@@ -68,7 +72,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     HR Consulting
                   </a>
@@ -77,7 +81,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     SEO Optimisation
                   </a>
@@ -94,7 +98,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     About
                   </a>
@@ -103,7 +107,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Meet the Team
                   </a>
@@ -112,7 +116,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Accounts Review
                   </a>
@@ -129,7 +133,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Contact
                   </a>
@@ -138,7 +142,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     FAQs
                   </a>
@@ -147,7 +151,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Live Chat
                   </a>
@@ -164,7 +168,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Accessibility
                   </a>
@@ -173,7 +177,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Returns Policy
                   </a>
@@ -182,7 +186,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Refund Policy
                   </a>
@@ -191,7 +195,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/"
-                    className="text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600 rounded-md p-1"
+                    className="rounded-md p-1 text-[#A3C3D0] transition hover:opacity-75 focus:outline-none focus:ring-4 focus:ring-garm-blue-600"
                   >
                     Hiring Statistics
                   </a>
@@ -202,12 +206,12 @@ const Footer = () => {
         </div>
 
         <p className="text-xs text-[#A3C3D0]">
-          &copy; {new Date().getFullYear()}. GARM Studios AB. All rights reserved.
+          &copy; {new Date().getFullYear()}. GARM Studios AB. All rights
+          reserved.
         </p>
       </div>
     </footer>
+  );
+};
 
-  )
-}
-
-export default Footer
+export default Footer;
