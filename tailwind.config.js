@@ -15,6 +15,7 @@ module.exports = {
       gridTemplateColumns: {
         'auto-fill-16': 'repeat(auto-fill, minmax(min(64px, 100%), 1fr))',
         'auto-fit-16': 'repeat(auto-fit, minmax(min(64px, 100%), 1fr))',
+        'auto-fit-12': 'repeat(auto-fit, minmax(min(48px, 100%), 1fr))',
       },
       colors: {
         "garm-blue-900": "#0F2C3E",
