@@ -6,13 +6,11 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import ContactView from "./views/ContactView";
 
 function App() {
   return (
     <div className="min-h-screen font-[Montserrat]">
       <Navbar />
-      {/* <main className="container m-auto px-4"> */}
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

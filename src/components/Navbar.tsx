@@ -26,12 +26,6 @@ const Navbar = () => {
     };
   });
 
-  useEffect(() => {
-    console.log(navbarMenuToggle)
-
-  }, [navbarMenuToggle])
-
-
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
     const position = window.pageYOffset;
